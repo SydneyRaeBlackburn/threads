@@ -1,0 +1,34 @@
+Troy Ricks: cssc1101
+Sydney Blackburn: cssc1112
+
+Class: CS570, Professor Leonard, Summer 2017
+Due: June 5, 2017
+Project: Assignment #1, Process Manager
+File: README
+
+
+File Manifest:
+	bots.c
+	bots.h
+	Makefile
+	README
+
+Compile Instructions:
+	To compile our program, just enter the command "make" which will run our Makefile bash script, creating an executable named "bots". Otherwise enter "gcc -pthread bots.c" to compile it manually with an "a.out" as your executable.
+
+Operating Instructions:
+	To operate our program, use the Makefile provided and run the created "bots" executable. No extra input or perameters are required.
+
+Novel/Significant Design Decisions:
+	We realized that the use of the function "fork()" was not necessary to empliment this program. 
+
+Extra Features/Algorithms/Functions:
+	No extra features added. Does what was required via the prompt.
+
+All Known Deficiencies Or Bugs:
+	Cast warnings are generated, however those are corrected inside the program. 
+
+Lessons Learned:
+	Better understanding of semaphores and threads were acheived through creation of this program.
+
+** cssc1101 edoras account will be available for testing **
